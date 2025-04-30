@@ -1,0 +1,174 @@
+@font-face {
+    font-family: benzin;
+    src: url(../font/Benzin-Font/Benzin-Bold.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    background-color: #4E5CEA;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+}
+
+section.home {
+
+    display: flex;
+    width: 100vw;
+    height: 770px;
+    border: 1px solid red;
+    flex-direction: column;
+
+}
+
+section.home > .titulo {
+
+    display: flex;
+    width: 100vw;
+    height: 440px;
+    border: 1px solid red;
+
+
+}
+
+section.home > .titulo > h1 {
+
+    color: white;
+    padding-top: 300px;
+    margin: 0 auto;
+    font-size: 110px;
+    font-family: benzin;
+
+}
+
+section.home > .desc {
+
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    border: 1px solid red;
+
+}
+
+section.home > .desc > p {
+
+    color: white;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 200;
+
+}
+
+section.home > .cta {
+
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    border: 1px solid red;
+
+}
+
+section.home > .cta > a {
+
+    color: blue;
+    padding-top: 12px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: yellow;
+    width: 20vw;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    font-weight: bold;
+    font-family: inter;
+
+}
+
+section.sobre {
+
+    display: flex;
+    width: 100vw;
+    height: 2000px;
+    border: 1px solid red;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+section.sobre > .onda {
+
+    display: flex;
+
+}
+
+section.sobre > .onda > img {
+
+    display: flex;
+    width: 100vw;
+    height: auto;
+
+}
+
+section.sobre > .imagens {
+
+    display: flex;
+    width: 100vw;
+    border: 1px solid red;
+    z-index: 5;
+    position: relative;
+    top: -1850px;
+
+}
+
+
+section.sobre > .imagens > .esquerda {
+
+    display: flex;
+    width: 50vw;
+    border: 1px solid red;
+
+}
+
+section.sobre > .imagens > .esquerda > img {
+
+    scale: 0.6;
+
+}
+
+section.sobre > .imagens > .direita {
+
+    display: flex;
+    width: 50vw;
+    border: 1px solid red;
+
+}
+
+section.sobre > .imagens > .direita > img {
+
+    scale: 0.8;
+
+}
+
+section.sobre > .conteudo {
+
+    background-color: white;
+    width: 100vw;
+    height: 500px;
+
+}
