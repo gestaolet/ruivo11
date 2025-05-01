@@ -104,7 +104,7 @@ section.sobre {
 
     display: flex;
     width: 100vw;
-    height: 2000px;
+    height: auto;
     border: 1px solid red;
     flex-direction: column;
     background-color: white;
@@ -114,6 +114,8 @@ section.sobre {
 section.sobre > .onda {
 
     display: flex;
+    width: 100vw;
+    height: 270px;
 
 }
 
@@ -130,10 +132,8 @@ section.sobre > .imagens {
     display: flex;
     width: 100vw;
     border: 1px solid red;
-    z-index: 5;
     position: relative;
-    top: -1850px;
-
+    top: -330px;  
 }
 
 
@@ -148,6 +148,7 @@ section.sobre > .imagens > .esquerda {
 section.sobre > .imagens > .esquerda > img {
 
     scale: 0.6;
+    padding-top: 40px;
 
 }
 
@@ -167,8 +168,31 @@ section.sobre > .imagens > .direita > img {
 
 section.sobre > .conteudo {
 
+    display: flex ;
     background-color: white;
     width: 100vw;
-    height: 500px;
+    height: auto;
+    border: 1px solid red;
+    position: relative;
+    top: -350px;
+    font-family: benzin;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+section.sobre > .conteudo > p {
+
+    display: flex ;
+    width: 80vw;
+    border: 1px solid red;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+section.sobre > .conteudo > p > span {
+
+    height: 40px;
 
 }
