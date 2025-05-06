@@ -29,7 +29,6 @@ section.home {
     display: flex;
     width: 100vw;
     height: 770px;
-    border: 1px solid red;
     flex-direction: column;
 
 }
@@ -39,7 +38,6 @@ section.home > .titulo {
     display: flex;
     width: 100vw;
     height: 440px;
-    border: 1px solid red;
 
 
 }
@@ -47,7 +45,7 @@ section.home > .titulo {
 section.home > .titulo > h1 {
 
     color: white;
-    padding-top: 300px;
+    padding-top: 240px;
     margin: 0 auto;
     font-size: 110px;
     font-family: benzin;
@@ -58,15 +56,14 @@ section.home > .desc {
 
     display: flex;
     width: 100vw;
-    height: 80px;
-    border: 1px solid red;
+    height: 120px;
 
 }
 
 section.home > .desc > p {
 
     color: white;
-    padding-top: 10px;
+    padding-top: 0px;
     margin: 0 auto;
     font-size: 24px;
     font-family: inter;
@@ -79,7 +76,6 @@ section.home > .cta {
     display: flex;
     width: 100vw;
     height: 250px;
-    border: 1px solid red;
 
 }
 
@@ -104,8 +100,7 @@ section.sobre {
 
     display: flex;
     width: 100vw;
-    height: auto;
-    border: 1px solid red;
+    height: 1200px;
     flex-direction: column;
     background-color: white;
 
@@ -131,7 +126,6 @@ section.sobre > .imagens {
 
     display: flex;
     width: 100vw;
-    border: 1px solid red;
     position: relative;
     top: -330px;  
 }
@@ -141,7 +135,6 @@ section.sobre > .imagens > .esquerda {
 
     display: flex;
     width: 50vw;
-    border: 1px solid red;
 
 }
 
@@ -156,7 +149,6 @@ section.sobre > .imagens > .direita {
 
     display: flex;
     width: 50vw;
-    border: 1px solid red;
 
 }
 
@@ -172,27 +164,244 @@ section.sobre > .conteudo {
     background-color: white;
     width: 100vw;
     height: auto;
-    border: 1px solid red;
     position: relative;
     top: -350px;
     font-family: benzin;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
 
 }
 
-section.sobre > .conteudo > p {
+section.sobre > .conteudo > .sobrezin {
 
     display: flex ;
-    width: 80vw;
-    border: 1px solid red;
+    width: 75vw;
     margin: 0 auto;
     text-align: center;
+    height: auto;
+    position: relative;
+    left: -60px;
 
 }
 
-section.sobre > .conteudo > p > span {
+section.sobre > .conteudo > .ruivo {
 
-    height: 40px;
+    display: flex ;
+    z-index: 4;
+    position: relative;
+    left: 158px;
+
+}
+
+section.sobre > .cta {
+
+    display: flex ;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    top: -200px;
+}
+
+section.sobre > .cta > a {
+
+    display: flex ;
+    width: 30vw;
+    height: 50px;
+    background-color: #FFFF00;
+    margin: 0 auto;
+    border: 2px solid #4E5CEA;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: inter;
+    color: #4E5CEA;
+    box-shadow: 0 7px 0 #4E5CEA;
+}
+
+section.info {
+
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    background-color: #4E5CEA;
+    flex-direction: column;
+
+}
+
+section.info > p {
+
+    display: flex;
+    width: 70vw;
+    margin: 100px auto;
+    height: auto;
+    font-family: inter;
+    font-weight: 200;
+    color: white;
+    text-align: justify;
+    font-size: 24px;
+
+}
+
+section.timeline {
+
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+section.timeline > img {
+
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    scale: 0.8;
+
+}
+
+section.contato {
+
+    display: flex;
+    width: 100vw;
+    height: 750px;
+    flex-direction: column;
+
+}
+
+section.contato > div {
+
+    display: flex;
+    width: 100vw;
+    height: 320px;
+
+}
+
+section.contato > div > h1 {
+
+    display: flex;
+    font-family: benzin;
+    font-size: 120px;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+    margin: 0 auto;
+    margin-top: 140px ;
+}
+
+section.contato > .redes {
+
+    display: flex;
+    width: 100vw;
+    height: 162px;
+    justify-content: center;
+}
+
+section.contato > .redes > .redes_sociais {
+
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+section.contato > .redes > .redes_sociais > img {
+
+    width: 20px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+section.contato > .redes > .redes_sociais > p {
+
+    display: flex;
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 200;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+
+section.contato > .cta {
+
+    display: flex;
+    width: 100vw;
+    height: 130px;
+
+}
+
+section.contato > .cta > a {
+
+    display: flex;
+    width: 40vw;
+    height: 60px;
+    border: 1px solid #FFFF00;
+    background-color: #FFFF00;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    padding-top: 27px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: inter;
+    text-decoration: none;
+
+}
+
+section.contato > .cta > a > img {
+
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: #4E5CEA;
+    margin-right: 10px;
+}
+footer {
+
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    justify-content: center;
+
+}
+
+footer > a {
+
+    display: flex;
+    width: 20vw;
+    height: auto;
+    font-family: inter;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+footer > a > img {
+
+    display: flex;
+    width: auto;
+    height: 24px;
+    position: relative;
+    top: -3px;
 
 }
