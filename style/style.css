@@ -100,7 +100,7 @@ section.sobre {
 
     display: flex;
     width: 100vw;
-    height: 1200px;
+    height: auto;
     flex-direction: column;
     background-color: white;
 
@@ -403,5 +403,198 @@ footer > a > img {
     height: 24px;
     position: relative;
     top: -3px;
+
+}
+
+/*-------------------RESPONSIVIDADE MOBILE--------------------------*/
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+
+    section.home > .titulo > h1 {
+
+        font-size: 80px;
+        padding-top: 300px;
+    
+    }
+    
+    
+    section.home > .desc > p {
+    
+        font-size: 18px;
+    
+    }
+    
+    section.home > .cta > a {
+
+        width: 35vw;
+    
+    }
+
+    section.sobre {
+
+        display: flex;
+        flex-direction: column;
+        border: 1px solid yellow;
+
+    }
+
+    section.sobre > .onda > img {
+
+        width: 100vw;
+        height: 150px;
+    
+    }
+    
+    
+    section.sobre > .imagens {
+    
+        display: flex;
+        flex-direction: column-reverse; 
+
+    }
+    
+    
+    section.sobre > .imagens > .esquerda {
+
+        width: 100vw;
+    
+    }
+    
+    section.sobre > .imagens > .esquerda > img {
+    
+        scale: 0.6;
+        padding-top: 60px;
+        margin: 0 auto;
+    
+    }
+    
+    section.sobre > .imagens > .direita {
+    
+        width: 100vw;
+    
+    }
+    
+    section.sobre > .imagens > .direita > img {
+    
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 30px;
+        margin-top: 160px;
+    
+    }
+
+    section.sobre > .conteudo {
+
+        width: 100vw;
+        border: 1px solid red;
+    }
+    
+    section.sobre > .conteudo > .sobrezin {
+
+        width: 100vw;
+        font-size: 28px;
+        text-align: left;
+
+    }
+    
+    section.sobre > .conteudo > .ruivo {
+    
+        position: relative;
+        left: 87px;
+    
+    }
+
+    section.sobre > .cta {
+
+        width: 100vw;
+        height: 100px;
+        margin-top: 0;
+        border: 1px solid red;
+
+    }
+    
+    
+    section.sobre > .cta > a {
+
+        width: 50vw;
+        padding-top: 25px;
+        font-size: 18px;
+
+    }
+
+    section.info {
+
+        width: 100vw;
+
+    }
+
+    section.info > p {
+
+        margin-top: 40px;
+        width: 80vw;
+
+    }
+
+    section.timeline {
+
+        width: 100vw;
+
+    }
+
+    section.timeline > img {
+
+        width: 100vw;
+        scale: 0.8;
+
+    }
+
+    
+    
+    section.contato > div > h1 {
+    
+        font-size: 80px;
+        margin-top: 180px ;
+
+    }
+    
+    
+    section.contato > .cta {
+    
+        display: flex;
+        width: 100vw;
+        height: 130px;
+    
+    }
+    
+    section.contato > .cta > a {
+    
+        width: 65vw;
+        height: 60px;
+        padding-top: 30px;
+
+    
+    }
+
+    footer {
+
+        width: 100vw;
+        margin: 0 auto;
+
+    }
+
+    footer > a {
+    
+        width: 50vw;
+    
+    }
+    
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+
+    
 
 }
