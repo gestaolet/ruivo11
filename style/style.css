@@ -423,7 +423,7 @@ footer > div > a > img {
 
     section.home > .titulo > h1 {
 
-        font-size: 80px;
+        font-size: 60px;
         padding-top: 300px;
     
     }
@@ -437,7 +437,7 @@ footer > div > a > img {
     
     section.home > .cta > a {
 
-        width: 35vw;
+        width: 50vw;
     
     }
 
@@ -445,7 +445,6 @@ footer > div > a > img {
 
         display: flex;
         flex-direction: column;
-        border: 1px solid yellow;
 
     }
 
@@ -467,13 +466,14 @@ footer > div > a > img {
     
     section.sobre > .imagens > .esquerda {
 
-        width: 100vw;
+        width: 50vw;
+        margin-left: -80px;
     
     }
     
     section.sobre > .imagens > .esquerda > img {
     
-        scale: 0.6;
+        scale: 0.4;
         padding-top: 60px;
         margin: 0 auto;
     
@@ -481,7 +481,8 @@ footer > div > a > img {
     
     section.sobre > .imagens > .direita {
     
-        width: 100vw;
+        width: 50vw;
+        margin-left: -40px;
     
     }
     
@@ -498,7 +499,6 @@ footer > div > a > img {
     section.sobre > .conteudo {
 
         width: 100vw;
-        border: 1px solid red;
     }
     
     section.sobre > .conteudo > .sobrezin {
@@ -521,7 +521,6 @@ footer > div > a > img {
         width: 100vw;
         height: 100px;
         margin-top: 0;
-        border: 1px solid red;
 
     }
     
@@ -564,28 +563,13 @@ footer > div > a > img {
     
     section.contato > div > h1 {
     
-        font-size: 80px;
+        font-size: 58px;
         margin-top: 180px ;
 
     }
     
     
-    section.contato > .cta {
-    
-        display: flex;
-        width: 100vw;
-        height: 130px;
-    
-    }
-    
-    section.contato > .cta > a {
-    
-        width: 65vw;
-        height: 60px;
-        padding-top: 30px;
 
-    
-    }
 
     footer {
 
@@ -594,9 +578,19 @@ footer > div > a > img {
 
     }
 
-    footer > a {
+    footer > div {
+
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+
+    }
+
+    footer > div > a {
     
-        width: 50vw;
+        display: flex;
+        width: 60vw;
+
     
     }
     
